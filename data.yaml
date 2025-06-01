@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 16
+names: ['crackdown', 'crossline', 'danger', 'kidprotectzone', 'leftcurve', 'noparking', 'nouturn', 'ntrack', 'oneway', 'slipper', 'slow', 'speedbump', 'speedlimit', 'stop', 'turncross', 'uturn']
+
+roboflow:
+  workspace: project-fatj9
+  project: traffic_sign-fa883
+  version: 8
+  license: Public Domain
+  url: https://universe.roboflow.com/project-fatj9/traffic_sign-fa883/dataset/8
